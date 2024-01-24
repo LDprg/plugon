@@ -1,9 +1,7 @@
-use std::path::Path;
+use macros;
 
 pub struct PluginLoader {}
 
 impl PluginLoader {
-    pub fn load(path: &Path){
-
-    }
+    pub fn load(_path: &Path) {}
 }

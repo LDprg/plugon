@@ -1,3 +1,4 @@
-fn test() {
+#[no_mangle]
+pub extern fn test() {
     println!("Hello, world!");
 }

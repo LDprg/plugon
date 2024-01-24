@@ -3,7 +3,7 @@ use plugon::PluginLoader;
 fn main() {
     println!("Load Plugin...");
 
-    let loader: PluginLoader;
+    let _loader: PluginLoader;
 
-    loader.load("./plugin.so");
+    //loader.load("./libplugin.so");
 }
