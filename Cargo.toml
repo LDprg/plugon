@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "plugon",
+    "plugin",
+    "runtime"
+]
+
+resolver = "2"
